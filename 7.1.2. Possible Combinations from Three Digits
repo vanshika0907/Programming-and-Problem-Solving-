@@ -1,0 +1,11 @@
+# Type Content here...
+# Read three digits
+a, b, c = input().split()
+
+# Print all possible combinations
+print(a + b + c)
+print(a + c + b)
+print(b + a + c)
+print(b + c + a)
+print(c + a + b)
+print(c + b + a)
